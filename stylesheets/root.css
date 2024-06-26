@@ -1,0 +1,146 @@
+:root
+{
+    font-size: 10px;
+
+    /* Setting root font sizes */
+    --eight: 46.97rem !important;
+    --seven: 29.03rem !important;
+    --six: 17.94rem !important;
+    --five: 11.08rem !important;
+    --four: 6.853rem !important;
+    --three: 4.235rem !important;
+    --two: 2.617rem !important;
+    --one: 1.618rem !important;
+    --golden: 1rem !important;
+    --mone: 0.618rem !important;
+    --mtwo: 0.381rem !important;
+    --mthree: 0.236rem !important;
+
+    /* Setting color variables */
+    --brand-5: hsl(120, 20%, 85%) !important;
+    --brand-4: hsl(120, 30%, 80%) !important;
+    --brand-3: hsl(120, 40%, 75%) !important;
+    --brand-2: hsl(120, 50%, 70%) !important;
+    --brand-1: hsl(120, 60%, 65%) !important;
+    --brand: hsl(120, 70%, 60%) !important;
+    --brand1: hsl(120, 75%, 50%) !important;
+    --brand2: hsl(120, 80%, 40%) !important;
+    --brand3: hsl(120, 85%, 30%) !important;
+    --brand4: hsl(120, 90%, 20%) !important;
+    --brand5: hsl(120, 95%, 10%) !important;
+    
+    --neutral-7: hsl(240, 2.5%, 100%) !important;
+    --neutral-6: hsl(240, 5%, 90%) !important;
+    --neutral-5: hsl(240, 7.5%, 80%) !important;
+    --neutral-4: hsl(240, 10%, 70%) !important;
+    --neutral-3: hsl(240, 12.5%, 60%) !important;
+    --neutral-2: hsl(240, 15%, 50%) !important;
+    --neutral-1: hsl(240, 17.5%, 40%) !important;
+    --neutral: hsl(240, 20%, 30%) !important;
+    --neutral1: hsl(240, 25%, 25%) !important;
+    --neutral2: hsl(240, 30%, 20%) !important;
+    --neutral3: hsl(240, 35%, 15%) !important;
+    --neutral4: hsl(240, 40%, 10%) !important;
+    --neutral5: hsl(240, 45%, 7.5%) !important;
+    --neutral6: hsl(240, 50%, 5%) !important;
+    --neutral7: hsl(240, 55%, 2.5%) !important;
+
+    --neutral-main: #121212 !important;
+    
+    --extreme-5: hsl(0, 20%, 85%) !important;
+    --extreme-4: hsl(0, 30%, 80%) !important;
+    --extreme-3: hsl(0, 40%, 75%) !important;
+    --extreme-2: hsl(0, 50%, 70%) !important;
+    --extreme-1: hsl(0, 60%, 65%) !important;
+    --extreme: hsl(0, 70%, 60%) !important;
+    --extreme1: hsl(0, 75%, 50%) !important;
+    --extreme2: hsl(0, 80%, 40%) !important;
+    --extreme3: hsl(0, 85%, 30%) !important;
+    --extreme4: hsl(0, 90%, 20%) !important;
+    --extreme5: hsl(0, 95%, 10%) !important;
+    
+    --ok-5: hsl(300, 20%, 85%) !important;
+    --ok-4: hsl(300, 30%, 80%) !important;
+    --ok-3: hsl(300, 40%, 75%) !important;
+    --ok-2: hsl(300, 50%, 70%) !important;
+    --ok-1: hsl(300, 60%, 65%) !important;
+    --ok: hsl(300, 70%, 60%) !important;
+    --ok1: hsl(300, 75%, 50%) !important;
+    --ok2: hsl(300, 80%, 40%) !important;
+    --ok3: hsl(300, 85%, 30%) !important;
+    --ok4: hsl(300, 90%, 20%) !important;
+    --ok5: hsl(300, 95%, 10%) !important;
+    
+    --approve-5: hsl(180, 20%, 85%) !important;
+    --approve-4: hsl(180, 30%, 80%) !important;
+    --approve-3: hsl(180, 40%, 75%) !important;
+    --approve-2: hsl(180, 50%, 70%) !important;
+    --approve-1: hsl(180, 60%, 65%) !important;
+    --approve: hsl(180, 70%, 60%) !important;
+    --approve1: hsl(180, 75%, 50%) !important;
+    --approve2: hsl(180, 80%, 40%) !important;
+    --approve3: hsl(180, 85%, 30%) !important;
+    --approve4: hsl(180, 90%, 20%) !important;
+    --approve5: hsl(180, 95%, 10%) !important;
+    
+    --warning-5: hsl(60, 20%, 85%) !important;
+    --warning-4: hsl(60, 30%, 80%) !important;
+    --warning-3: hsl(60, 40%, 75%) !important;
+    --warning-2: hsl(60, 50%, 70%) !important;
+    --warning-1: hsl(60, 60%, 65%) !important;
+    --warning: hsl(60, 70%, 60%) !important;
+    --warning1: hsl(60, 75%, 50%) !important;
+    --warning2: hsl(60, 80%, 40%) !important;
+    --warning3: hsl(60, 85%, 30%) !important;
+    --warning4: hsl(60, 90%, 20%) !important;
+    --warning5: hsl(60, 95%, 10%) !important;
+}
+
+@media screen
+    and (max-width: 1000px)
+    {
+    :root
+    {
+        font-size: 9.5px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    :root
+    {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    :root
+    {
+        font-size: 8.5px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    :root
+    {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    :root
+    {
+        font-size: 7.5px;
+    }
+}
+
+@media screen and (max-width: 200px)
+{
+    :root
+    {
+        font-size: 7px;
+    }
+}

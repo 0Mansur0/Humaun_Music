@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Humaun Web Player</title>
+        <link rel = "stylesheet" href = "stylesheets/main.css"> 
+        <link
+        rel = "stylesheet"
+        href = "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity = "sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin = "anonymous"
+        />
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script defer src = "scripts/main.js"></script>
+        
+        <!-- Favicons & settings-->
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header id = "header">
+            <object data="images/Humaun_complete_no_background.svg" type="image/svg+xml" id="logo"></object>
+            <search id = "search-block">
+                <span class = "material-symbols-outlined">search</span>
+                <form action = "https://www.youtube.com/results" method = "get">
+                    <input id = "search" name="search_query" type = "search" placeholder = "Search for music">
+                </form>
+            </search>
+        
+            <!--Audio player with a play/pause button, mute button and volume slider-->
+            <div id = "broadcast">
+                <span class = "material-symbols-outlined" id = "playPause">play_circle</span>
+                <span id = "broadcastText">Play Music Here</span>
+                <div id = "volume">
+                    <span class = "material-symbols-outlined" id = "muteUnmute">volume_up</span>
+                    <input type = "range" min = "0" max = "100" value = "50" id = "volumeSlider">
+                </div>
+            </div>
+
+            <!--Menu button for style-->
+            <span class = "material-symbols-outlined" id = "menuIcon">menu</span>
+        </header>
+        
+        <main id = "main">
+            <h1 id = "music-select">Select Your Music</h1>
+            <select name = "genre" id = "genre-dropdown">
+                <option value = "" disabled selected>Select Genre</option>
+                <option value = "rock">Rock</option>
+                <option value = "pop">Pop</option>
+                <option value = "classical">Classical</option>
+                <option value = "ambient">Ambient</option>
+            </select>
+
+            <table id = "music-table"></table>
+        </main>
+
+        <footer id = "footer">
+            <address id = "contact">
+                <h2 id = "contact-header">I really appreciate you, even love...</h2>
+                <div id = "links">
+                    <a href = "https://github.com/0Mansur0" id = "profile-link" target = "_blank"><i class = "fab fa-github"></i></a>
+                    <a href = "https://www.freecodecamp.org/Humaun" id = "profile-link" target = "_blank">
+                        <i>freeCodeCamp</i>
+                    </a>
+                    <a href = "https://twitter.com/TheHumaunMansur" target = "_blank">
+                        <i class = "fab fa-twitter"></i>
+                    </a>
+                </div>
+            </address>
+        </footer>
+    </body>
+</html>
